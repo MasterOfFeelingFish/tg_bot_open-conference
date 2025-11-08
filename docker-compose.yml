@@ -4,9 +4,9 @@ services:
     container_name: chatgptbot
     image: yym68686/chatgpt:latest
     environment:
-      - BOT_TOKEN=
-      - BASE_URL=
-      - API_KEY=
+      - BOT_TOKEN=8520200276:AAHzpiIjyvfm5JzQnAxJPbhL7Jr11J5GMps
+      - BASE_URL=https://api.baicaigpt.cn/v1
+      - API_KEY=sk-bwiLZ7RopfQvRVsfTlAFOw2PuwRVTafqxh0HArrZJa1Up
       - MODEL=gpt-4o
       - CUSTOM_MODELS=-all,gpt-4o
       - NICK=@openConference1bot
